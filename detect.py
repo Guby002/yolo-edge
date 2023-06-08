@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     if args.bench_speed:
         logger.info("Performing test run")
-        n_runs = 100
+        n_runs = 50
         
         
         inference_times = []
