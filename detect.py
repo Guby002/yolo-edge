@@ -85,8 +85,8 @@ if __name__ == "__main__":
         logger.info("Mean FPS: {:1.2f}".format(fps))
 
     elif args.bench_image:
-        logger.info("Testing on Zidane image")
-        model.predict("./data/images/zidane.jpg")
+        logger.info("Testing on kukorica image")
+        model.predict("./data/images/kukorica1.jpg")
 
     elif args.bench_coco:
         logger.info("Testing on COCO dataset")
