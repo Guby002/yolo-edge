@@ -171,7 +171,8 @@ class EdgeTPUModel:
             self.nms_time = time.time() - tstart
             
             return nms_result
-            
+        
+            logger.info("Confidence threshold: {}".format(time.time() - tstart))
         else:    
           return result
           
